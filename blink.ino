@@ -12,7 +12,7 @@ void setup() {
 
 
 void loop() {
-    // this blinks the light in infinent loop
+    // this blinks the light in infinite loop
     digitalWrite(pin5, HIGH);
     delay(1000);
     digitalWrite(pin5, LOW);
