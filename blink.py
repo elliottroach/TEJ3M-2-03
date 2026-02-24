@@ -9,12 +9,12 @@ import digitalio
 import time
 
 # setup
-led = digitalio.DigitalInOut(board.LED)
-led.direction = digitalio.Direction.OUTPUT
+pin5 = digitalio.DigitalInOut(board.GP5)
+pin5.direction = digitalio.Direction.OUTPUT
 
 while True:
-    led.value = True
+    pin5.value = True
     time.sleep(1)
-    led.value = False
+    pin5.value = False
     time.sleep(1)
     
